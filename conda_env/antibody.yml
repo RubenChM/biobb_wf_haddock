@@ -1,0 +1,8 @@
+name: biobb_wf_antibody
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_gromacs
+  - biobb_haddock
+  - biobb_pmx

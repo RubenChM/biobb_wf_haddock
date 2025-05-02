@@ -1,0 +1,6 @@
+name: biobb_wf_haddock
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_haddock
