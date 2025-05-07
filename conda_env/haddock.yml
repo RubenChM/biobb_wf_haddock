@@ -4,3 +4,4 @@ channels:
   - bioconda
 dependencies:
   - biobb_haddock
+  - biobb_pdb_tools ==5.0.1
