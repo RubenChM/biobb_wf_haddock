@@ -4,5 +4,6 @@ channels:
   - bioconda
 dependencies:
   - biobb_gromacs
-  - biobb_haddock
+  - biobb_haddock ==5.0.1
+  - biobb_pdb_tools ==5.0.1
   - biobb_pmx
