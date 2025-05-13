@@ -3,7 +3,23 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
+  - python >=3.9
+  - jupyter
+  - nglview ==3.1.4
+  - ipywidgets
+  - plotly
+  - biobb_io
+  - biobb_analysis
   - biobb_gromacs
+
+  # Gromacs
+  - biobb_structure_utils
+  - biobb_chemistry
+  - simpletraj
+  # Haddock
   - biobb_haddock ==5.0.1
   - biobb_pdb_tools ==5.0.1
+  - ambertools
+  # PMX
   - biobb_pmx
+  - scipy==1.13 # Fix?
