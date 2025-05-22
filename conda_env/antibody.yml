@@ -17,6 +17,7 @@ dependencies:
   - biobb_model
   - biobb_chemistry
   - simpletraj
+  - anarcii # CPU only, for GPU you need the pip version
   # Haddock
   - biobb_haddock ==5.0.1
   - biobb_pdb_tools ==5.0.1
